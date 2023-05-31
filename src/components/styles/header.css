@@ -1,0 +1,59 @@
+header {
+    background: rgb(29, 29, 29);
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    -webkit-box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    position: fixed;
+    z-index: 6;
+    width: 100%;
+    top: 0;
+    height: 55px;
+    flex: 0 0 auto;
+  }
+  
+  #centersearch {
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  #logowithbuttons {
+    flex: 1 1 auto;
+    display: flex;
+  }
+  
+  .App-header-links {
+    display: flex;
+    width: 100%;
+    padding-left: 14px;
+    align-items: center;
+  }
+  
+  .App-header-links a {
+    color: #b1b3b1;
+    padding: 12px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  .App-header-links a:hover {
+    transition: 0.4s;
+    color: #40d123;
+  }
+  
+  .App-header-buttons {
+    justify-self: flex-end;
+    display: flex;
+    align-items: center;
+    min-width: 200px;
+    flex: 1 1 auto;
+    justify-content: flex-end;
+    margin-right: 40px;
+  }

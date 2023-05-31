@@ -1,0 +1,14 @@
+.content {
+    margin-top: 55px;
+    background: #eeeeee;
+    display: flex;
+    width: 100%;
+    padding-bottom: 70px;
+    flex: 1 1 auto;
+    flex-direction: column;
+}
+.textbook-list {
+    margin-left: auto;
+    margin-right: auto;
+}
+    

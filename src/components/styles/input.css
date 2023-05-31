@@ -1,0 +1,19 @@
+#search {
+    display: flex;
+}
+#search input {
+    border: solid 1px rgb(75, 75, 75);
+    padding: 5px;
+    border-radius: 8px 0 0 8px;
+    background: none;
+}
+#search input::placeholder {
+    padding: 5px;
+}
+#search button {
+    background: none;
+    border: solid 1px rgb(75, 75, 75);
+    border-radius: 0 8px 8px 0;
+    padding: 2px 9px;
+    border-left: none;
+}
