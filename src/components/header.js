@@ -1,9 +1,9 @@
 import './styles/header.css';
-import logo from './images/topbar_logo.svg';
 import LogButton from './header-button.js';
 import Search from './input.js';
 
-export default function Header() {
+
+export default function Header({logo}) {
     return (
         <header>
           <div id='logowithbuttons'>

@@ -9,6 +9,7 @@
 }
 #search input::placeholder {
     padding: 5px;
+    color: #757575
 }
 #search button {
     background: none;

@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div className='App'>
-      <Header />
+      <Header logo={logo}/>
       <Content />
       <Footer logo={logo} />
     </div>
