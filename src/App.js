@@ -5,13 +5,15 @@ import './components/styles/markup.css'
 import logo from './components/images/topbar_logo.svg'
 
 
-function App() {
 
+function App() {
+  
   return (
     <div className='App'>
       <Header logo={logo}/>
       <Content />
       <Footer logo={logo} />
+      
     </div>
   );
 }
