@@ -1,4 +1,4 @@
-import './styles/login.css'
+import '../styles/login.css'
 import React from 'react'
 
 export default function Login({active, setActive}) {

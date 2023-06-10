@@ -1,4 +1,4 @@
-import './styles/textbook.css'
+import '../styles/textbook.css'
 
 
 export default function TextBook ({logo, header = 'заголовок', description = 'описание', price = 'цена'}) {

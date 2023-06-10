@@ -1,4 +1,4 @@
-import './styles/header-button.css'
+import '../styles/header-button.css'
 
 
 export default function HeaderButton({children = 'кнопка', onClick}) {

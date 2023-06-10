@@ -1,7 +1,7 @@
-import Header from './components/Header';
-import Content from './components/Content';
-import Footer from './components/Footer';
-import './components/styles/markup.css'
+import Header from './containers/Header';
+import Content from './containers/Content';
+import Footer from './containers/Footer';
+import './styles/markup.css'
 import logo from './assets/images/topbar_logo.svg'
 
 
