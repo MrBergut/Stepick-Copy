@@ -1,14 +1,14 @@
 import './styles/header.css';
 import HeaderButton from './HeaderButton.js';
 import Search from './input.js';
-import Modal from './Modal';
+import Login from './Login.jsx';
 import { useState } from 'react';
 
 export default function Header({logo}) {
-    const [modalActive, setModalActive] = useState(false)
+    const [loginActive, setLoginActive] = useState(false)
     return (
         <header>
-          <Modal active={modalActive} setActive={setModalActive}/>
+          <Login active={loginActive} setActive={setLoginActive}/>
           <div id='logowithbuttons'>
             <img src={logo} className='App-logo' alt='logo' />
             <div className='App-header-links'>
@@ -20,7 +20,7 @@ export default function Header({logo}) {
             <Search placeholder='поиск'></Search>
           </div>
           <div className='App-header-buttons'>
-            <HeaderButton onClick={() => setModalActive(true)}>Войти</HeaderButton>
+            <HeaderButton onClick={() => setLoginActive(true)}>Войти</HeaderButton>
             <HeaderButton>Регистрация</HeaderButton>
           </div>
         </header>
