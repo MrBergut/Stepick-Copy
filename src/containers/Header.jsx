@@ -1,6 +1,6 @@
 import '../styles/header.css';
 import HeaderButton from '../components/HeaderButton';
-import Search from '../components/Input';
+import Search from '../components/Search';
 import Login from '../components/LoginModal';
 import { useState } from 'react';
 
