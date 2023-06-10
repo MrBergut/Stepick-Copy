@@ -1,6 +1,6 @@
-import Header from './components/header.js';
-import Content from './components/content.js';
-import Footer from './components/footer.js';
+import Header from './components/Header';
+import Content from './components/Content';
+import Footer from './components/Footer';
 import './components/styles/markup.css'
 import logo from './assets/images/topbar_logo.svg'
 

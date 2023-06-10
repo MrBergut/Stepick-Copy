@@ -1,7 +1,7 @@
 import './styles/header.css';
-import HeaderButton from './HeaderButton.js';
-import Search from './input.js';
-import Login from './Login.jsx';
+import HeaderButton from './HeaderButton';
+import Search from './Input';
+import Login from './Login';
 import { useState } from 'react';
 
 export default function Header({logo}) {

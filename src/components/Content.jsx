@@ -1,5 +1,5 @@
 import './styles/content.css'
-import TextBook from './textbook';
+import TextBook from './Ttextbook';
 import pylogo from '../assets/images/icons8python87.png'
 import cpluslogo from '../assets/images/icons8c87.png'
 import csharplogo from '../assets/images/icons8csharp87.png'
