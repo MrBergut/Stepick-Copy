@@ -1,11 +1,11 @@
 import './styles/content.css'
 import TextBook from './textbook';
-import pylogo from './images/icons8python87.png'
-import cpluslogo from './images/icons8c87.png'
-import csharplogo from './images/icons8csharp87.png'
-import css3 from './images/icons8css387.png'
-import javascriptlogo from './images/icons8javascript87.png'
-import reactjslogo from './images/icons8reactnative87.png'
+import pylogo from '../assets/images/icons8python87.png'
+import cpluslogo from '../assets/images/icons8c87.png'
+import csharplogo from '../assets/images/icons8csharp87.png'
+import css3 from '../assets/images/icons8css387.png'
+import javascriptlogo from '../assets/images/icons8javascript87.png'
+import reactjslogo from '../assets/images/icons8reactnative87.png'
 
 
 export default function Content() {

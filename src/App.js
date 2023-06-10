@@ -2,7 +2,7 @@ import Header from './components/header.js';
 import Content from './components/content.js';
 import Footer from './components/footer.js';
 import './components/styles/markup.css'
-import logo from './components/images/topbar_logo.svg'
+import logo from './assets/images/topbar_logo.svg'
 
 
 

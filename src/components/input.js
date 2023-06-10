@@ -1,5 +1,5 @@
 import './styles/input.css';
-import searchlogo from './images/icons8search30.png';
+import searchlogo from '../assets/images/icons8search30.png';
 
 export default function Search({placeholder = 'текст-подсказка'}) {
     return (
