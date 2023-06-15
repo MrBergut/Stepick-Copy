@@ -1,14 +1,17 @@
-import '../styles/header.css';
-import HeaderButton from '../components/HeaderButton';
+import Button from '../components/Button';
 import Search from '../components/Search';
-import Login from '../components/LoginModal';
+import LoginModal from '../components/LoginModal';
+
 import { useState } from 'react';
+
+import '../styles/header.css';
+
 
 export default function Header({logo}) {
     const [loginActive, setLoginActive] = useState(false)
     return (
         <header>
-          <Login active={loginActive} setActive={setLoginActive}/>
+          <LoginModal active={loginActive} setActive={setLoginActive}/>
           <div id='logowithbuttons'>
             <img src={logo} className='App-logo' alt='logo' />
             <div className='App-header-links'>
@@ -20,8 +23,8 @@ export default function Header({logo}) {
             <Search placeholder='поиск'></Search>
           </div>
           <div className='App-header-buttons'>
-            <HeaderButton onClick={() => setLoginActive(true)}>Войти</HeaderButton>
-            <HeaderButton>Регистрация</HeaderButton>
+            <Button type='header' onClick={() => setLoginActive(true)}>Войти</Button>
+            <Button type='header'>Регистрация</Button>
           </div>
         </header>
     );

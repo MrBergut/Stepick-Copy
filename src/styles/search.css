@@ -1,0 +1,13 @@
+#search {
+    display: flex;
+}
+
+Input {
+    border-radius: 8px 0 0 8px;
+    height: 27px;
+}
+
+Input::placeholder {
+    padding: 5px;
+    color: #757575
+}

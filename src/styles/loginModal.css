@@ -61,48 +61,13 @@
     font-size: 14px;
     padding-bottom: 2px;
 }
-.main-login-content input::placeholder {
-    padding: 15px;
-}
 .main-login-content a {
     font-size: 12px;
     align-self: flex-start;
     padding-left: 74px;
 }
-.cls-button {
-    width: 15px;
-    height: 15px;
-    border: none;
-    border-radius: 2px;
-    background: #cf0000;
-    color: #fff;
-    cursor: pointer;
-    margin: 2px;
-    transition: 0.2s;
-}
-.cls-button:hover {
-    background: #f90000;
-    transition: 0.2s;
-}
 .for-confirm-button {
     display: flex;
     justify-content: flex-end;
     flex: 0 0 auto;
-}
-.confirm-button {
-    margin: 20px;
-    background: #34b0bbd6;
-    border: none;
-    border-radius: 5px;
-    width: 60px;
-    height: 30px;
-    margin-right: 30px;
-    font-size: 15px;
-    color: #f2f2f2;
-    transition: 0.2s;
-    font-weight: 700;
-}
-.confirm-button:hover {
-    background: #26deefd6;
-    transition: 0.2s;
 }
