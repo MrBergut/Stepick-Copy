@@ -2,9 +2,13 @@ import Button from '../components/Button';
 import Search from '../components/Search';
 import LoginModal from '../components/LoginModal';
 
+
 import { useState } from 'react';
 
 import '../styles/header.css';
+
+
+
 
 
 export default function Header({logo}) {
