@@ -75,5 +75,25 @@
     transition: 0.2s;
     color: #e8e8e8;
 }
+.button.logout {
+    font-size: 12px;
+    padding: 3px 8px;
+    margin: 0 5px;
+    background: none;
+    border: 1.5px solid #696969;
+    border-radius: 5px;
+    color: #eeeeee;
+    transition: 0.4s;
+    font-weight: 600;
+}
+.button.logout:hover {
+    transition: 0.4s;
+    background: rgba(174, 174, 174, 0.156);
+}
+.button.button.confirm:disabled {
+    background: #b1b1b1ee;
+    color: #dfdfdff5;
+    cursor: no-drop;
+}
 
 
